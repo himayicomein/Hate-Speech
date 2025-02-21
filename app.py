@@ -9,7 +9,7 @@ import time
 from googletrans import Translator
 
 # โมเดล
-loaded_model = keras.models.load_model("C:/Users/Narissara/OneDrive/Desktop/NLP Project/hate_speech_modelv2.h5")
+loaded_model = keras.models.load_model("./hate_speech_modelv2.h5")
 
 with open("C:/Users/Narissara/OneDrive/Desktop/NLP Project/label_encoder.pkl", "rb") as f:
     loaded_label_encoder = pickle.load(f)
