@@ -11,10 +11,10 @@ from googletrans import Translator
 # โมเดล
 loaded_model = keras.models.load_model("./hate_speech_modelv2.h5")
 
-with open("C:/Users/Narissara/OneDrive/Desktop/NLP Project/label_encoder.pkl", "rb") as f:
+with open("./label_encoder.pkl", "rb") as f:
     loaded_label_encoder = pickle.load(f)
 
-with open("C:/Users/Narissara/OneDrive/Desktop/NLP Project/tokenizer.pkl", "rb") as f:
+with open("./tokenizer.pkl", "rb") as f:
     loaded_tokenizer = pickle.load(f)
 
 #ชื่อ ฉสฟหห
